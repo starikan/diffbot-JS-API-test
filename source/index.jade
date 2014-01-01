@@ -8,8 +8,16 @@ html
 
     body
 
-        div.description
+        div#description
+            p: a(href="https://github.com/starikan/diffbot-JS-API-test") All Sources Here!
 
-        div.content
+        div#form
+            input#inputField(type="text", value="http://google.com")
+            input#submitButton(type="submit", value="DiffBot")
 
+        div#content
+            p JSON
+
+        script(src="adds.js")
+        script(src="diffbot.js")
         script(src="main.js")
